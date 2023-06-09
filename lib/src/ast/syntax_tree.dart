@@ -544,8 +544,6 @@ class EquationRowNode extends ParentableNode<GreenNode>
       }
     });
 
-    _key = GlobalKey();
-
     final lineChildren = List.generate(
       flattenedBuildResults.length,
       (index) => LineElement(
@@ -561,7 +559,6 @@ class EquationRowNode extends ParentableNode<GreenNode>
     final widget = Consumer<FlutterMathMode>(builder: (context, mode, child) {
       if (mode == FlutterMathMode.view) {
         return Line(
-          key: _key!,
           children: lineChildren,
         );
       }
@@ -610,7 +607,6 @@ class EquationRowNode extends ParentableNode<GreenNode>
           builder: (context, conf, _) {
             final value = Provider.of<SelectionStyle>(context);
             return EditableLine(
-              key: _key,
               children: lineChildren,
               devicePixelRatio: MediaQuery.of(context).devicePixelRatio,
               node: this,
