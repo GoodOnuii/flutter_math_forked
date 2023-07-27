@@ -5,7 +5,7 @@ const supportedData = {
     // r'\mathring{g}',
     r"a''",
     r'\widetilde{ac}',
-    // r'\overgroup{AB}',
+    r'\overgroup{AB}',
     r'a^{\prime}',
     r'\utilde{AB}',
     r'\undergroup{AB}',

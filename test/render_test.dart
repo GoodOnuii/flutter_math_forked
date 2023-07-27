@@ -26,7 +26,7 @@ void main() {
       '\\overleftarrow',
       '\\Overrightarrow',
       '\\overleftrightarrow',
-      // '\\overgroup',
+      '\\overgroup',
       // '\\overlinesegment',
       '\\overleftharpoon',
       '\\overrightharpoon',
