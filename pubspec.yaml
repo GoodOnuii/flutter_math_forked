@@ -78,3 +78,17 @@ flutter:
     - family: KaTeX_Size4
       fonts:
         - asset: lib/katex_fonts/fonts/KaTeX_Size4-Regular.ttf
+    - family: NotoKr
+      fonts:
+        - asset: lib/fonts/NotoSansKR-Thin.otf
+          weight: 100
+        - asset: lib/fonts/NotoSansKR-Light.otf
+          weight: 300
+        - asset: lib/fonts/NotoSansKR-Regular.otf
+          weight: 400
+        - asset: lib/fonts/NotoSansKR-Medium.otf
+          weight: 500
+        - asset: lib/fonts/NotoSansKR-Bold.otf
+          weight: 700
+        - asset: lib/fonts/NotoSansKR-Black.otf
+          weight: 900
